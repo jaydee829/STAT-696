@@ -1,0 +1,53 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{enumerate}
+\begin{document}
+\title{STAT 696 Homework 1}
+\section*{1.3}
+\textbf{Problem:}
+Experience with a certain type of plastic indicates that a relation exists between the hardness (measured in Brinell units) of items molded from the plastic (\textit{Y}) and the elapsed time since terminations of the molding process (\textit{X}). It is proposed to study this relation by means of regression analysis. A participant in the discussion objects, pointing out that the hardening of the plastic "is the result of a natural chemical process that doesn't leave anything to chance, so the relation must be mathematical and 
+regression analysis is not appropriate." Evaluate this objection.\\
+\newline
+\textbf{Answer:}
+While the process may be a natural chemical process, our understanding of the process could be limited by our ability to observe the variables that affect the process and the accuracy with which we can measure them. Regression analysis allows us to determine a model that is simple to calculate and gives us an answer that is accurate enough to improve our processes. While we know that the time since the molding process was terminated is the primary driver of hardness, it is likely additionally affected by variables
+like ambient temperature, ambient humidity, plastic temperature at termination of molding process, and others. The effects of these variables can be represented as the error term in a regression, since some cannot be controlled (ambient temperature and humidity) and some cannot be regulated with absolute certainty (our ability to control the end temperature is limited by the quality of thermocouples). 
+
+\section*{1.4}
+\textbf{Problem:}
+In Tabel 1.1, the lot size of \textit{X} is the same in production runs 1 and 24 but the work hours \textit{Y} differ. What feature of regression model (1.1) is illustrated by this?\\
+\newline
+\textbf{Answer:}
+The random error term, $\varepsilon_i$, accounts for random variation in the data being fit.
+
+\section*{1.5}
+\textbf{Problem:}When asked to state the simple linear regression model, a student wrote it as follows: $E \{ Y_i \}=\beta_0+\beta_1 X_i+\varepsilon_i$. Do you agree?\\
+\newline
+\textbf{Answer:}
+No, the equation should exchange the expected value of the response variable, $E \{Y_i\}$, for the actual value of the response variable, $Y_i$ because the equation written includes the error term $\varepsilon_i$. Alternatively, the equation could be written $E \{Y_i\}=\beta_0+\beta_1 X_i$ because $E \{\varepsilon_i\}=0$.
+
+\section*{1.7}
+\textbf{Problem:}
+In a simulation exercise, regression model (1.1) applies with $\beta_0=100$,$\beta_1=20$, and $\sigma^2=25$. An observation on $Y$ will be made for $X=5$.
+\begin{enumerate}[a)]
+    \item Plot this normal error regression model in the fashion of Figure 1.6. Show the distributions of $Y$ for $X=$10, 20, and 40.
+    \item Explain the meaning of the parameters $\beta_0$ and $\beta_1$. Assume that the scope of the model includes $X=0$.
+\end{enumerate}
+\textbf{Answer:}
+
+
+\section*{1.11}
+
+\section*{1.16}
+
+\section*{1.17}
+
+\section*{1.18}
+
+\section*{1.21}
+
+\section*{1.25}
+
+\section*{1.40}
+
+
+\end{document}
